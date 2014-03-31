@@ -1,0 +1,28 @@
+Author: Alec Snyder
+APIs and SDK's provided by google under the open source project.
+Google Drive and the Google Drive Logo are registered trademarks of Google inc. and are not claimed by me.
+e-mail: linuxbash8@gmail.com
+Google Drive Linux implementation in Java
+questions? just e-mail me.
+intructions, download the zip from the git website, then, unzip the zipped archive. Then, run ./install.sh to install everything you will need
+sudo access
+
+run gdrive --gui to access the gui interface
+
+run gdrived to start the daemon
+
+run gdrive --sync to sync one time (not necessary if daemon is started)
+
+run gdrive --list to list all the files in your drive
+
+run gdrive --insert to add a local file to your drive
+
+run gdrive --download to download a file from drive to your ~/gdrive directory (get the file id from gdrive --list)
+
+run gdrive --remove to remove a drive from Drive (get the file id from gdrive --list)
+
+run gdrive --pull to download all files from Drive to your ~/gdrive directory overwrites any local files with the same name
+
+
+Notes: The program creates a gdrive folder under your home directory. Any changes you make to that directory will be modified in drive every time you sync or automatically if the daemon is running.
+
