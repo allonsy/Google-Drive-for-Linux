@@ -25,4 +25,4 @@ run gdrive --pull to download all files from Drive to your ~/gdrive directory ov
 
 
 Notes: The program creates a gdrive folder under your home directory. Any changes you make to that directory will be modified in drive every time you sync or automatically if the daemon is running.
-
+run ./uninstall.sh to uninstall
